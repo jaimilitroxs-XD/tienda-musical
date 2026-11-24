@@ -1,0 +1,51 @@
+.tabla-gestion {
+  min-width: 0;
+  color: var(--store-text);
+  --dt-row-selected: 40, 116, 166;
+}
+.tabla-gestion .dt-container { max-width: 100%; }
+.tabla-gestion .dt-layout-row { gap: .75rem; margin-block: 1rem; }
+.tabla-gestion .dt-search input,
+.tabla-gestion .dt-length select {
+  border: 1px solid var(--store-border);
+  border-radius: 1rem;
+  background-color: var(--store-surface);
+  color: var(--store-text);
+  min-height: 38px;
+}
+.tabla-gestion .dt-search label,
+.tabla-gestion .dt-length label,
+.tabla-gestion .dt-info { color: var(--store-muted); font-size: .875rem; }
+.tabla-gestion .dt-scroll { border: 1px solid var(--store-border); border-radius: 12px; overflow: hidden; }
+.tabla-gestion .dt-scroll-body { border-color: var(--store-border) !important; }
+.tabla-gestion table.dataTable { margin: 0 !important; --bs-table-bg: var(--store-surface); --bs-table-color: var(--store-text); --bs-table-border-color: var(--store-border); }
+.tabla-gestion table.dataTable thead { background: var(--store-subtle); }
+.tabla-gestion table.dataTable th,
+.tabla-gestion table.dataTable td { padding: .85rem; vertical-align: middle; }
+.tabla-gestion .dt-scroll-head th { white-space: nowrap; }
+.tabla-gestion .celda-producto { min-width: 210px; }
+.tabla-gestion .page-link {
+  background: var(--store-surface);
+  border-color: var(--store-border);
+  color: var(--store-text);
+  min-height: 38px;
+}
+.tabla-gestion .active > .page-link { background: var(--store-primary); border-color: var(--store-primary); color: white; }
+.tabla-gestion .disabled > .page-link { background: var(--store-subtle); color: var(--store-muted); opacity: .6; }
+.tabla-gestion .page-link:hover { background: var(--store-subtle); color: var(--store-primary); }
+.tabla-gestion .page-link:focus,
+.tabla-gestion input:focus,
+.tabla-gestion select:focus { border-color: var(--store-primary); box-shadow: 0 0 0 2px color-mix(in srgb, var(--store-primary) 25%, transparent); }
+.tabla-gestion .dt-processing { background: var(--store-surface); border: 1px solid var(--store-border); color: var(--store-text); border-radius: 1rem; }
+.tabla-gestion .dt-processing > div:last-child > div { background: var(--store-primary); }
+[data-bs-theme="dark"] .tabla-gestion { --dt-row-selected: 217, 38, 169; }
+[data-bs-theme="dark"] .tabla-gestion .page-link { color: var(--store-text); background: var(--store-surface); border-color: var(--store-border); }
+[data-bs-theme="dark"] .tabla-gestion .active > .page-link { background: var(--store-primary); border-color: var(--store-primary); color: white; }
+[data-bs-theme="dark"] .tabla-gestion .disabled > .page-link { background: var(--store-subtle); color: var(--store-muted); }
+@media (max-width: 767.98px) {
+  .tabla-gestion .dt-layout-row { display: flex !important; flex-direction: column; align-items: stretch !important; }
+  .tabla-gestion .dt-layout-cell { width: 100% !important; text-align: left !important; }
+  .tabla-gestion .dt-search { display: flex; align-items: center; gap: .5rem; }
+  .tabla-gestion .dt-search input { flex: 1; min-width: 0; width: 100%; }
+  .tabla-gestion .pagination { flex-wrap: wrap; gap: .25rem; }
+}

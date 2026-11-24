@@ -1,0 +1,1577 @@
+[
+  {
+    "model": "auth.group",
+    "pk": 1,
+    "fields": {
+      "name": "Tecnico",
+      "permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$q5YyheBACairpvGpQHe8xD$EGNSTI1pZJhyBRZgULYMDwHgvPxLaJBSZSgknNoM1bc=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "clientedemo1@example.test",
+      "first_name": "Cliente demo 1",
+      "last_name": "",
+      "email": "clientedemo1@example.test",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2026-11-10T00:46:10.594Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$dpcTlIj9iRGkSe0KTB7AFP$TK9c32DeQ/8SsFzX6V7Y++gJrMeIdv+DDB3cbLR1U8o=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "maxi@example.test",
+      "first_name": "Maxi",
+      "last_name": "",
+      "email": "maxi@example.test",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2026-11-10T01:42:31.685Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$ixLzJ0lsjYUMsgJuhIeD0I$QtNOn8f17tEVtbrHpWliT0oh4uYmFBCK/zQZmUinRhM=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "jaime@example.test",
+      "first_name": "Jaime",
+      "last_name": "",
+      "email": "jaime@example.test",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-11-10T01:42:32.094Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$yugB3e5iADAakJ73odZM23$yFDpa3wL+uM5dGXwRsv1qoECKBMoj8LehSTfCCiqUZo=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "juan@example.test",
+      "first_name": "Juan",
+      "last_name": "",
+      "email": "juan@example.test",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-11-10T01:42:32.478Z",
+      "groups": [
+        1
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$qYp0aWgz4C4yzfMloudzzp$bREC63Ut+G3nBMsKL9NPCNfPp6p1uvmIxb0Ye0lsZ0c=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "cristobal@example.test",
+      "first_name": "Cristobal",
+      "last_name": "",
+      "email": "cristobal@example.test",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2026-11-10T01:42:32.868Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$wQGkjvIzyD7HKX51Wc4W0Y$H0NJE6ng+Ez5rnQxVJqartfXBcB/8s9KOXdlgLwPUj0=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "clientedemo6@example.test",
+      "first_name": "Cliente demo 6",
+      "last_name": "",
+      "email": "clientedemo6@example.test",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-11-10T20:04:03.718Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 7,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$hrKA8r8SQCXQce8wADuqBb$muwUoISIVefV2b25ZYAZEkDHRL2XvmaKaqM7pTCQZqY=",
+      "last_login": null,
+      "is_superuser": true,
+      "username": "superadmin@example.test",
+      "first_name": "Superadmin",
+      "last_name": "",
+      "email": "superadmin@example.test",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2026-11-10T20:13:38.584Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 8,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$g236b6kTmb4CjTPbhUqcWb$hXireL+awvfDYy4cxg1GNWqpOMeLpyEIBbtEUFfq67c=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "clientedemo8@example.test",
+      "first_name": "Cliente demo 8",
+      "last_name": "",
+      "email": "clientedemo8@example.test",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-11-10T20:49:18.288Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "usuariosApp.usuario",
+    "pk": 1,
+    "fields": {
+      "user": 2,
+      "nombre": "Maxi",
+      "correo": "maxi@example.test",
+      "telefono": "900000000",
+      "activo": true,
+      "fechaRegistro": "2026-11-10T01:42:32.080Z"
+    }
+  },
+  {
+    "model": "usuariosApp.usuario",
+    "pk": 2,
+    "fields": {
+      "user": 3,
+      "nombre": "Jaime",
+      "correo": "jaime@example.test",
+      "telefono": "900000000",
+      "activo": true,
+      "fechaRegistro": "2026-11-10T01:42:32.471Z"
+    }
+  },
+  {
+    "model": "usuariosApp.usuario",
+    "pk": 3,
+    "fields": {
+      "user": 4,
+      "nombre": "Juan",
+      "correo": "juan@example.test",
+      "telefono": "900000000",
+      "activo": true,
+      "fechaRegistro": "2026-11-10T01:42:32.842Z"
+    }
+  },
+  {
+    "model": "usuariosApp.usuario",
+    "pk": 4,
+    "fields": {
+      "user": 5,
+      "nombre": "Cristobal",
+      "correo": "cristobal@example.test",
+      "telefono": "900000000",
+      "activo": true,
+      "fechaRegistro": "2026-11-10T01:42:33.245Z"
+    }
+  },
+  {
+    "model": "usuariosApp.usuario",
+    "pk": 5,
+    "fields": {
+      "user": 6,
+      "nombre": "Cliente demo 6",
+      "correo": "clientedemo6@example.test",
+      "telefono": "900000000",
+      "activo": true,
+      "fechaRegistro": "2026-11-10T20:04:04.579Z"
+    }
+  },
+  {
+    "model": "usuariosApp.usuario",
+    "pk": 6,
+    "fields": {
+      "user": 7,
+      "nombre": "Superadmin",
+      "correo": "superadmin@example.test",
+      "telefono": "900000000",
+      "activo": true,
+      "fechaRegistro": "2026-11-10T20:13:39.151Z"
+    }
+  },
+  {
+    "model": "usuariosApp.usuario",
+    "pk": 7,
+    "fields": {
+      "user": 8,
+      "nombre": "Cliente demo 8",
+      "correo": "clientedemo8@example.test",
+      "telefono": "900000000",
+      "activo": true,
+      "fechaRegistro": "2026-11-10T20:49:19.351Z"
+    }
+  },
+  {
+    "model": "usuariosApp.cliente",
+    "pk": 1,
+    "fields": {
+      "direccion": "Dirección de demostración",
+      "usuario": 2
+    }
+  },
+  {
+    "model": "usuariosApp.cliente",
+    "pk": 2,
+    "fields": {
+      "direccion": "Dirección de demostración",
+      "usuario": 5
+    }
+  },
+  {
+    "model": "usuariosApp.cliente",
+    "pk": 3,
+    "fields": {
+      "direccion": "Dirección de demostración",
+      "usuario": 6
+    }
+  },
+  {
+    "model": "usuariosApp.cliente",
+    "pk": 4,
+    "fields": {
+      "direccion": "Dirección de demostración",
+      "usuario": 7
+    }
+  },
+  {
+    "model": "usuariosApp.vendedoradmin",
+    "pk": 1,
+    "fields": {
+      "usuario": 1
+    }
+  },
+  {
+    "model": "usuariosApp.vendedoradmin",
+    "pk": 2,
+    "fields": {
+      "usuario": 4
+    }
+  },
+  {
+    "model": "usuariosApp.tecnico",
+    "pk": 1,
+    "fields": {
+      "usuario": 3
+    }
+  },
+  {
+    "model": "catalogoApp.producto",
+    "pk": 1,
+    "fields": {
+      "nombre": "Guitarra acústica BIL-38C-BK con funda",
+      "categoria": "Guitarras y bajos",
+      "subcategoria": "Guitarras acústicas",
+      "marca": "Bilbao",
+      "descripcion": "Instrumento disponible para compra o arriendo con retiro en tienda.",
+      "foto": "productos/bilbao-guitarra-acustica-bil-38c-bk-con-funda.webp",
+      "precioVenta": "159990.00",
+      "precioArriendoDia": "8000.00",
+      "stockTotal": 4,
+      "stockDisponibleVenta": 0,
+      "stockDisponibleArriendo": 2,
+      "estado": true
+    }
+  },
+  {
+    "model": "catalogoApp.producto",
+    "pk": 2,
+    "fields": {
+      "nombre": "Bajo eléctrico TRBX174",
+      "categoria": "Guitarras y bajos",
+      "subcategoria": "Bajos",
+      "marca": "Yamaha",
+      "descripcion": "Instrumento disponible para compra o arriendo con retiro en tienda.",
+      "foto": "productos/yamaha-bajo-electrico-trbx174.webp",
+      "precioVenta": "289990.00",
+      "precioArriendoDia": "12000.00",
+      "stockTotal": 5,
+      "stockDisponibleVenta": 0,
+      "stockDisponibleArriendo": 2,
+      "estado": true
+    }
+  },
+  {
+    "model": "catalogoApp.producto",
+    "pk": 3,
+    "fields": {
+      "nombre": "Teclado de 61 teclas TON-230",
+      "categoria": "Teclados y sintetizadores",
+      "subcategoria": "Teclados",
+      "marca": "Tonic",
+      "descripcion": "Instrumento disponible para compra o arriendo con retiro en tienda.",
+      "foto": "productos/tonic-teclado-de-61-teclas-ton-230.webp",
+      "precioVenta": "249990.00",
+      "precioArriendoDia": "15000.00",
+      "stockTotal": 5,
+      "stockDisponibleVenta": 1,
+      "stockDisponibleArriendo": 2,
+      "estado": true
+    }
+  },
+  {
+    "model": "catalogoApp.producto",
+    "pk": 4,
+    "fields": {
+      "nombre": "Batería acústica RMX RM-802 BK",
+      "categoria": "Baterías y percusión",
+      "subcategoria": "Baterías",
+      "marca": "RMX",
+      "descripcion": "Instrumento disponible para compra o arriendo con retiro en tienda.",
+      "foto": "productos/rmx-bateria-acustica-rmx-rm-802-bk.webp",
+      "precioVenta": "799990.00",
+      "precioArriendoDia": "25000.00",
+      "stockTotal": 5,
+      "stockDisponibleVenta": 2,
+      "stockDisponibleArriendo": 2,
+      "estado": true
+    }
+  },
+  {
+    "model": "catalogoApp.producto",
+    "pk": 5,
+    "fields": {
+      "nombre": "Micrófono dinámico P3 S",
+      "categoria": "Micrófonos",
+      "subcategoria": "",
+      "marca": "AKG",
+      "descripcion": "Instrumento disponible para compra o arriendo con retiro en tienda.",
+      "foto": "productos/akg-microfono-dinamico-p3-s.webp",
+      "precioVenta": "119990.00",
+      "precioArriendoDia": "6000.00",
+      "stockTotal": 5,
+      "stockDisponibleVenta": 3,
+      "stockDisponibleArriendo": 1,
+      "estado": true
+    }
+  },
+  {
+    "model": "catalogoApp.producto",
+    "pk": 6,
+    "fields": {
+      "nombre": "Guitarra eléctrica Stratocaster",
+      "categoria": "Guitarra electrica",
+      "subcategoria": "",
+      "marca": "XGTR",
+      "descripcion": "Instrumento disponible para compra o arriendo con retiro en tienda.",
+      "foto": "productos/xgtr-guitarra-electrica-stratocaster.webp",
+      "precioVenta": "229990.00",
+      "precioArriendoDia": "10000.00",
+      "stockTotal": 5,
+      "stockDisponibleVenta": 2,
+      "stockDisponibleArriendo": 2,
+      "estado": true
+    }
+  },
+  {
+    "model": "catalogoApp.producto",
+    "pk": 12,
+    "fields": {
+      "nombre": "Acordeón 32 bajos 1306BK",
+      "categoria": "Vientos y orquesta",
+      "subcategoria": "Vientos",
+      "marca": "Smussato",
+      "descripcion": "Acordeón 32 bajos 1306BK Smussato. Disponible para venta y arriendo con retiro en tienda. Catálogo de demostración académica.",
+      "foto": "productos/smussato-acordeon-32-bajos-1306bk.webp",
+      "precioVenta": "299990.00",
+      "precioArriendoDia": "15000.00",
+      "stockTotal": 5,
+      "stockDisponibleVenta": 3,
+      "stockDisponibleArriendo": 2,
+      "estado": true
+    }
+  },
+  {
+    "model": "catalogoApp.producto",
+    "pk": 13,
+    "fields": {
+      "nombre": "Saxofón tenor ALL6435L",
+      "categoria": "Vientos y orquesta",
+      "subcategoria": "Vientos",
+      "marca": "Allegro",
+      "descripcion": "Saxofón tenor ALL6435L Allegro. Disponible para venta y arriendo con retiro en tienda. Catálogo de demostración académica.",
+      "foto": "productos/allegro-saxofon-tenor-all6435l.webp",
+      "precioVenta": "499990.00",
+      "precioArriendoDia": "20000.00",
+      "stockTotal": 5,
+      "stockDisponibleVenta": 3,
+      "stockDisponibleArriendo": 2,
+      "estado": true
+    }
+  },
+  {
+    "model": "catalogoApp.producto",
+    "pk": 14,
+    "fields": {
+      "nombre": "Audífonos DT 990 Pro 80",
+      "categoria": "Audífonos",
+      "subcategoria": "",
+      "marca": "Beyerdynamic",
+      "descripcion": "Audífonos DT 990 Pro 80 Beyerdynamic. Disponible para venta y arriendo con retiro en tienda. Catálogo de demostración académica.",
+      "foto": "productos/beyerdynamic-audifonos-dt-990-pro-80.webp",
+      "precioVenta": "179990.00",
+      "precioArriendoDia": "8000.00",
+      "stockTotal": 5,
+      "stockDisponibleVenta": 2,
+      "stockDisponibleArriendo": 2,
+      "estado": true
+    }
+  },
+  {
+    "model": "catalogoApp.producto",
+    "pk": 15,
+    "fields": {
+      "nombre": "Audífonos de monitoreo HPS3000",
+      "categoria": "Audífonos",
+      "subcategoria": "",
+      "marca": "Behringer",
+      "descripcion": "Audífonos de monitoreo HPS3000 Behringer. Disponible para venta y arriendo con retiro en tienda. Catálogo de demostración académica.",
+      "foto": "productos/behringer-audifonos-de-monitoreo-hps3000.webp",
+      "precioVenta": "29990.00",
+      "precioArriendoDia": "3000.00",
+      "stockTotal": 5,
+      "stockDisponibleVenta": 3,
+      "stockDisponibleArriendo": 2,
+      "estado": true
+    }
+  },
+  {
+    "model": "catalogoApp.producto",
+    "pk": 16,
+    "fields": {
+      "nombre": "Bajo eléctrico Jazz Bass",
+      "categoria": "Guitarras y bajos",
+      "subcategoria": "Bajos",
+      "marca": "XGTR",
+      "descripcion": "Bajo eléctrico Jazz Bass XGTR. Disponible para venta y arriendo con retiro en tienda. Catálogo de demostración académica.",
+      "foto": "productos/xgtr-bajo-electrico-jazz-bass.webp",
+      "precioVenta": "189990.00",
+      "precioArriendoDia": "9000.00",
+      "stockTotal": 5,
+      "stockDisponibleVenta": 3,
+      "stockDisponibleArriendo": 2,
+      "estado": true
+    }
+  },
+  {
+    "model": "catalogoApp.producto",
+    "pk": 17,
+    "fields": {
+      "nombre": "Caja activa Compact 8",
+      "categoria": "Audio profesional",
+      "subcategoria": "",
+      "marca": "ARX",
+      "descripcion": "Caja activa Compact 8 ARX. Disponible para venta y arriendo con retiro en tienda. Catálogo de demostración académica.",
+      "foto": "productos/arx-caja-activa-compact-8.webp",
+      "precioVenta": "199990.00",
+      "precioArriendoDia": "12000.00",
+      "stockTotal": 5,
+      "stockDisponibleVenta": 2,
+      "stockDisponibleArriendo": 2,
+      "estado": true
+    }
+  },
+  {
+    "model": "catalogoApp.producto",
+    "pk": 18,
+    "fields": {
+      "nombre": "Pedal Nano Clone Analog Chorus",
+      "categoria": "Pedales y efectos",
+      "subcategoria": "Pedales",
+      "marca": "Electro-Harmonix",
+      "descripcion": "Pedal Nano Clone Analog Chorus Electro-Harmonix. Disponible para venta y arriendo con retiro en tienda. Catálogo de demostración académica.",
+      "foto": "productos/electro-harmonix-pedal-nano-clone-analog-chorus.webp",
+      "precioVenta": "69990.00",
+      "precioArriendoDia": "4000.00",
+      "stockTotal": 5,
+      "stockDisponibleVenta": 3,
+      "stockDisponibleArriendo": 2,
+      "estado": true
+    }
+  },
+  {
+    "model": "catalogoApp.producto",
+    "pk": 19,
+    "fields": {
+      "nombre": "Estuche para guitarra acústica SC30",
+      "categoria": "Accesorios",
+      "subcategoria": "",
+      "marca": "SKB",
+      "descripcion": "Estuche para guitarra acústica SC30 SKB. Disponible para venta y arriendo con retiro en tienda. Catálogo de demostración académica.",
+      "foto": "productos/skb-estuche-para-guitarra-acustica-sc30.webp",
+      "precioVenta": "99990.00",
+      "precioArriendoDia": "5000.00",
+      "stockTotal": 5,
+      "stockDisponibleVenta": 2,
+      "stockDisponibleArriendo": 2,
+      "estado": true
+    }
+  },
+  {
+    "model": "catalogoApp.producto",
+    "pk": 20,
+    "fields": {
+      "nombre": "Guitarra eléctrica Telecaster TL100-WH",
+      "categoria": "Guitarra electrica",
+      "subcategoria": "",
+      "marca": "XGTR",
+      "descripcion": "Guitarra eléctrica Telecaster TL100-WH XGTR. Disponible para venta y arriendo con retiro en tienda. Catálogo de demostración académica.",
+      "foto": "productos/xgtr-guitarra-electrica-telecaster-tl100-wh.webp",
+      "precioVenta": "169990.00",
+      "precioArriendoDia": "10000.00",
+      "stockTotal": 5,
+      "stockDisponibleVenta": 2,
+      "stockDisponibleArriendo": 2,
+      "estado": true
+    }
+  },
+  {
+    "model": "catalogoApp.producto",
+    "pk": 21,
+    "fields": {
+      "nombre": "Guitarra electroacústica SDG-2CEBK",
+      "categoria": "Guitarras y bajos",
+      "subcategoria": "Guitarras acústicas",
+      "marca": "Suzuki",
+      "descripcion": "Guitarra electroacústica SDG-2CEBK Suzuki. Disponible para venta y arriendo con retiro en tienda. Catálogo de demostración académica.",
+      "foto": "productos/suzuki-guitarra-electroacustica-sdg-2cebk.webp",
+      "precioVenta": "129990.00",
+      "precioArriendoDia": "8000.00",
+      "stockTotal": 5,
+      "stockDisponibleVenta": 3,
+      "stockDisponibleArriendo": 2,
+      "estado": true
+    }
+  },
+  {
+    "model": "catalogoApp.producto",
+    "pk": 22,
+    "fields": {
+      "nombre": "Kit de batería acústica de 5 piezas",
+      "categoria": "Baterías y percusión",
+      "subcategoria": "Baterías",
+      "marca": "GCR",
+      "descripcion": "Kit de batería acústica de 5 piezas GCR. Disponible para venta y arriendo con retiro en tienda. Catálogo de demostración académica.",
+      "foto": "productos/gcr-kit-de-bateria-acustica-de-5-piezas.jpg",
+      "precioVenta": "349990.00",
+      "precioArriendoDia": "20000.00",
+      "stockTotal": 5,
+      "stockDisponibleVenta": 0,
+      "stockDisponibleArriendo": 2,
+      "estado": true
+    }
+  },
+  {
+    "model": "catalogoApp.producto",
+    "pk": 23,
+    "fields": {
+      "nombre": "Micrófono vocal SL85S",
+      "categoria": "Micrófonos",
+      "subcategoria": "",
+      "marca": "Behringer",
+      "descripcion": "Micrófono vocal SL85S Behringer. Disponible para venta y arriendo con retiro en tienda. Catálogo de demostración académica.",
+      "foto": "productos/behringer-microfono-vocal-sl85s.webp",
+      "precioVenta": "24990.00",
+      "precioArriendoDia": "3000.00",
+      "stockTotal": 5,
+      "stockDisponibleVenta": 3,
+      "stockDisponibleArriendo": 2,
+      "estado": true
+    }
+  },
+  {
+    "model": "catalogoApp.producto",
+    "pk": 24,
+    "fields": {
+      "nombre": "Pedal de boost MP-110",
+      "categoria": "Pedales y efectos",
+      "subcategoria": "Pedales",
+      "marca": "Movall",
+      "descripcion": "Pedal de boost MP-110 Movall. Disponible para venta y arriendo con retiro en tienda. Catálogo de demostración académica.",
+      "foto": "productos/movall-pedal-de-boost-mp-110.webp",
+      "precioVenta": "39990.00",
+      "precioArriendoDia": "3000.00",
+      "stockTotal": 5,
+      "stockDisponibleVenta": 3,
+      "stockDisponibleArriendo": 2,
+      "estado": true
+    }
+  },
+  {
+    "model": "catalogoApp.producto",
+    "pk": 25,
+    "fields": {
+      "nombre": "Pedestal de pared para instrumento",
+      "categoria": "Accesorios",
+      "subcategoria": "",
+      "marca": "Genérica",
+      "descripcion": "Pedestal de pared para instrumento Genérica. Disponible para venta y arriendo con retiro en tienda. Catálogo de demostración académica.",
+      "foto": "productos/generica-pedestal-de-pared-para-instrumento.webp",
+      "precioVenta": "9990.00",
+      "precioArriendoDia": "1000.00",
+      "stockTotal": 5,
+      "stockDisponibleVenta": 3,
+      "stockDisponibleArriendo": 2,
+      "estado": true
+    }
+  },
+  {
+    "model": "catalogoApp.producto",
+    "pk": 26,
+    "fields": {
+      "nombre": "Piano digital P-145BT",
+      "categoria": "Pianos",
+      "subcategoria": "",
+      "marca": "Yamaha",
+      "descripcion": "Piano digital P-145BT Yamaha. Disponible para venta y arriendo con retiro en tienda. Catálogo de demostración académica.",
+      "foto": "productos/yamaha-piano-digital-p-145bt.webp",
+      "precioVenta": "599990.00",
+      "precioArriendoDia": "25000.00",
+      "stockTotal": 5,
+      "stockDisponibleVenta": 3,
+      "stockDisponibleArriendo": 2,
+      "estado": true
+    }
+  },
+  {
+    "model": "catalogoApp.producto",
+    "pk": 27,
+    "fields": {
+      "nombre": "Sistema de audio EVOX J8",
+      "categoria": "Audio profesional",
+      "subcategoria": "",
+      "marca": "RCF",
+      "descripcion": "Sistema de audio EVOX J8 RCF. Disponible para venta y arriendo con retiro en tienda. Catálogo de demostración académica.",
+      "foto": "productos/rcf-sistema-de-audio-evox-j8.webp",
+      "precioVenta": "1299990.00",
+      "precioArriendoDia": "50000.00",
+      "stockTotal": 5,
+      "stockDisponibleVenta": 3,
+      "stockDisponibleArriendo": 2,
+      "estado": true
+    }
+  },
+  {
+    "model": "catalogoApp.producto",
+    "pk": 28,
+    "fields": {
+      "nombre": "Fliscorno FH-302G",
+      "categoria": "Vientos y orquesta",
+      "subcategoria": "Vientos",
+      "marca": "Roy Benson",
+      "descripcion": "Fliscorno FH-302G Roy Benson. Disponible para venta y arriendo con retiro en tienda. Catálogo de demostración académica.",
+      "foto": "productos/roy-benson-fliscorno-fh-302g.webp",
+      "precioVenta": "499990.00",
+      "precioArriendoDia": "20000.00",
+      "stockTotal": 5,
+      "stockDisponibleVenta": 2,
+      "stockDisponibleArriendo": 2,
+      "estado": true
+    }
+  },
+  {
+    "model": "catalogoApp.producto",
+    "pk": 29,
+    "fields": {
+      "nombre": "Sintetizador análogo MODEL D",
+      "categoria": "Teclados y sintetizadores",
+      "subcategoria": "Sintetizadores",
+      "marca": "Behringer",
+      "descripcion": "Sintetizador análogo MODEL D Behringer. Disponible para venta y arriendo con retiro en tienda. Catálogo de demostración académica.",
+      "foto": "productos/behringer-sintetizador-analogo-model-d.webp",
+      "precioVenta": "299990.00",
+      "precioArriendoDia": "15000.00",
+      "stockTotal": 5,
+      "stockDisponibleVenta": 3,
+      "stockDisponibleArriendo": 2,
+      "estado": true
+    }
+  },
+  {
+    "model": "catalogoApp.producto",
+    "pk": 30,
+    "fields": {
+      "nombre": "Sintetizador MicroFreak Hybrid",
+      "categoria": "Teclados y sintetizadores",
+      "subcategoria": "Sintetizadores",
+      "marca": "Arturia",
+      "descripcion": "Sintetizador MicroFreak Hybrid Arturia. Disponible para venta y arriendo con retiro en tienda. Catálogo de demostración académica.",
+      "foto": "productos/arturia-sintetizador-microfreak-hybrid.webp",
+      "precioVenta": "349990.00",
+      "precioArriendoDia": "18000.00",
+      "stockTotal": 5,
+      "stockDisponibleVenta": 3,
+      "stockDisponibleArriendo": 2,
+      "estado": true
+    }
+  },
+  {
+    "model": "catalogoApp.producto",
+    "pk": 31,
+    "fields": {
+      "nombre": "Ukelele soprano de 21 pulgadas con funda",
+      "categoria": "Ukeleles",
+      "subcategoria": "",
+      "marca": "Sonun",
+      "descripcion": "Ukelele soprano de 21 pulgadas con funda Sonun. Disponible para venta y arriendo con retiro en tienda. Catálogo de demostración académica.",
+      "foto": "productos/sonun-ukelele-soprano-de-21-pulgadas-con-funda.webp",
+      "precioVenta": "29990.00",
+      "precioArriendoDia": "3000.00",
+      "stockTotal": 5,
+      "stockDisponibleVenta": 3,
+      "stockDisponibleArriendo": 2,
+      "estado": true
+    }
+  },
+  {
+    "model": "catalogoApp.producto",
+    "pk": 32,
+    "fields": {
+      "nombre": "Ukelele soprano MUK06",
+      "categoria": "Ukeleles",
+      "subcategoria": "",
+      "marca": "Mercury",
+      "descripcion": "Ukelele soprano MUK06 Mercury. Disponible para venta y arriendo con retiro en tienda. Catálogo de demostración académica.",
+      "foto": "productos/mercury-ukelele-soprano-muk06.webp",
+      "precioVenta": "34990.00",
+      "precioArriendoDia": "3000.00",
+      "stockTotal": 5,
+      "stockDisponibleVenta": 3,
+      "stockDisponibleArriendo": 2,
+      "estado": true
+    }
+  },
+  {
+    "model": "catalogoApp.producto",
+    "pk": 33,
+    "fields": {
+      "nombre": "Piano",
+      "categoria": "Piano",
+      "subcategoria": "",
+      "marca": "Yamaha",
+      "descripcion": "Piano",
+      "foto": "",
+      "precioVenta": "300000.00",
+      "precioArriendoDia": "0.00",
+      "stockTotal": 8,
+      "stockDisponibleVenta": 8,
+      "stockDisponibleArriendo": 0,
+      "estado": true
+    }
+  },
+  {
+    "model": "catalogoApp.resena",
+    "pk": 1,
+    "fields": {
+      "producto": 12,
+      "usuario": 3,
+      "calificacion": 1,
+      "titulo": "Reseña de demostración",
+      "comentario": "Producto de ejemplo para presentar el proyecto.",
+      "visible": true,
+      "creado": "2026-11-21T02:49:46.029Z",
+      "actualizado": "2026-11-21T02:49:46.029Z"
+    }
+  },
+  {
+    "model": "catalogoApp.reportemantencion",
+    "pk": 1,
+    "fields": {
+      "producto": 5,
+      "fechaReporte": "2026-11-10",
+      "fallaReportada": "No se escucha",
+      "descripcionReparacion": "Skekdekd",
+      "fechaReparacion": "2026-11-10",
+      "estado": "reparado",
+      "tipoStock": "venta"
+    }
+  },
+  {
+    "model": "catalogoApp.reportemantencion",
+    "pk": 2,
+    "fields": {
+      "producto": 23,
+      "fechaReporte": "2026-11-10",
+      "fallaReportada": "No se esucha",
+      "descripcionReparacion": "Listo",
+      "fechaReparacion": "2026-11-10",
+      "estado": "reparado",
+      "tipoStock": "venta"
+    }
+  },
+  {
+    "model": "catalogoApp.reportemantencion",
+    "pk": 3,
+    "fields": {
+      "producto": 12,
+      "fechaReporte": "2026-11-10",
+      "fallaReportada": "dedededed",
+      "descripcionReparacion": "dededed",
+      "fechaReparacion": "2026-11-10",
+      "estado": "reparado",
+      "tipoStock": "venta"
+    }
+  },
+  {
+    "model": "catalogoApp.reportemantencion",
+    "pk": 4,
+    "fields": {
+      "producto": 2,
+      "fechaReporte": "2026-11-24",
+      "fallaReportada": "Una cuerda está dañada. Ejemplo de presentación.",
+      "descripcionReparacion": null,
+      "fechaReparacion": null,
+      "estado": "pendiente",
+      "tipoStock": "venta"
+    }
+  },
+  {
+    "model": "catalogoApp.reportemantencion",
+    "pk": 5,
+    "fields": {
+      "producto": 3,
+      "fechaReporte": "2026-11-24",
+      "fallaReportada": "Una tecla no responde. Ejemplo de presentación.",
+      "descripcionReparacion": null,
+      "fechaReparacion": null,
+      "estado": "pendiente",
+      "tipoStock": "venta"
+    }
+  },
+  {
+    "model": "catalogoApp.reportemantencion",
+    "pk": 6,
+    "fields": {
+      "producto": 17,
+      "fechaReporte": "2026-11-24",
+      "fallaReportada": "El sonido se corta. Ejemplo de presentación.",
+      "descripcionReparacion": null,
+      "fechaReparacion": null,
+      "estado": "pendiente",
+      "tipoStock": "venta"
+    }
+  },
+  {
+    "model": "pedidosApp.pedido",
+    "pk": 1,
+    "fields": {
+      "fechaPedido": "2026-11-10T18:50:51.978Z",
+      "estado": "Pendiente",
+      "total": "1249464.00",
+      "cliente": 1,
+      "datosCliente": {
+        "nombre": "Jaime",
+        "apellidos": "Demo",
+        "rut": "12.345.678-5",
+        "telefono": "900000000",
+        "correo": "jaime@example.test"
+      }
+    }
+  },
+  {
+    "model": "pedidosApp.pedido",
+    "pk": 2,
+    "fields": {
+      "fechaPedido": "2026-11-10T20:51:00.737Z",
+      "estado": "Pendiente",
+      "total": "273688.00",
+      "cliente": 4,
+      "datosCliente": {
+        "nombre": "Cliente demo 8",
+        "apellidos": "Demo",
+        "rut": "12.345.678-5",
+        "telefono": "900000000",
+        "correo": "clientedemo8@example.test"
+      }
+    }
+  },
+  {
+    "model": "pedidosApp.pedido",
+    "pk": 3,
+    "fields": {
+      "fechaPedido": "2026-11-16T14:56:50.370Z",
+      "estado": "Pagado",
+      "total": "345088.00",
+      "cliente": 1,
+      "datosCliente": {
+        "nombre": "Jaime",
+        "apellidos": "Demo",
+        "rut": "12.345.678-5",
+        "telefono": "900000000",
+        "correo": "jaime@example.test"
+      }
+    }
+  },
+  {
+    "model": "pedidosApp.pedido",
+    "pk": 4,
+    "fields": {
+      "fechaPedido": "2026-11-21T01:22:09.487Z",
+      "estado": "Pagado",
+      "total": "487876.00",
+      "cliente": 1,
+      "datosCliente": {
+        "nombre": "Jaime",
+        "apellidos": "Demo",
+        "rut": "12.345.678-5",
+        "telefono": "900000000",
+        "correo": "jaime@example.test"
+      }
+    }
+  },
+  {
+    "model": "pedidosApp.pedido",
+    "pk": 5,
+    "fields": {
+      "fechaPedido": "2026-11-21T01:57:36.486Z",
+      "estado": "Pagado",
+      "total": "535476.00",
+      "cliente": 1,
+      "datosCliente": {
+        "nombre": "Jaime",
+        "apellidos": "Demo",
+        "rut": "12.345.678-5",
+        "telefono": "900000000",
+        "correo": "jaime@example.test"
+      }
+    }
+  },
+  {
+    "model": "pedidosApp.pedido",
+    "pk": 6,
+    "fields": {
+      "fechaPedido": "2026-11-24T19:27:40.788Z",
+      "estado": "Pagado",
+      "total": "214188.00",
+      "cliente": 1,
+      "datosCliente": {
+        "nombre": "Jaime",
+        "apellidos": "Demo",
+        "rut": "12.345.678-5",
+        "telefono": "900000000",
+        "correo": "jaime@example.test",
+        "demo_ref": "presentacion-simple-1"
+      }
+    }
+  },
+  {
+    "model": "pedidosApp.pedido",
+    "pk": 7,
+    "fields": {
+      "fechaPedido": "2026-11-24T19:27:46.743Z",
+      "estado": "Pagado",
+      "total": "14280.00",
+      "cliente": 1,
+      "datosCliente": {
+        "nombre": "Jaime",
+        "apellidos": "Demo",
+        "rut": "12.345.678-5",
+        "telefono": "900000000",
+        "correo": "jaime@example.test",
+        "demo_ref": "presentacion-simple-2"
+      }
+    }
+  },
+  {
+    "model": "pedidosApp.pedido",
+    "pk": 8,
+    "fields": {
+      "fechaPedido": "2026-11-24T19:27:52.226Z",
+      "estado": "Pagado",
+      "total": "118988.00",
+      "cliente": 1,
+      "datosCliente": {
+        "nombre": "Jaime",
+        "apellidos": "Demo",
+        "rut": "12.345.678-5",
+        "telefono": "900000000",
+        "correo": "jaime@example.test",
+        "demo_ref": "presentacion-simple-3"
+      }
+    }
+  },
+  {
+    "model": "pedidosApp.pedido",
+    "pk": 9,
+    "fields": {
+      "fechaPedido": "2026-11-24T20:30:12.365Z",
+      "estado": "Pendiente",
+      "total": "202288.00",
+      "cliente": 1,
+      "datosCliente": {
+        "nombre": "Jaime",
+        "apellidos": "Demo",
+        "rut": "12.345.678-5",
+        "telefono": "900000000",
+        "correo": "jaime@example.test"
+      }
+    }
+  },
+  {
+    "model": "pedidosApp.pedido",
+    "pk": 10,
+    "fields": {
+      "fechaPedido": "2026-11-24T20:32:01.531Z",
+      "estado": "Completado",
+      "total": "666392.00",
+      "cliente": 1,
+      "datosCliente": {
+        "nombre": "Jaime",
+        "apellidos": "Demo",
+        "rut": "12.345.678-5",
+        "telefono": "900000000",
+        "correo": "jaime@example.test"
+      }
+    }
+  },
+  {
+    "model": "pedidosApp.pedido",
+    "pk": 11,
+    "fields": {
+      "fechaPedido": "2026-11-24T20:39:21.761Z",
+      "estado": "Pendiente",
+      "total": "594988.00",
+      "cliente": 2,
+      "datosCliente": {
+        "nombre": "Cliente demo 6",
+        "apellidos": "Demo",
+        "rut": "12.345.678-5",
+        "telefono": "900000000",
+        "correo": "clientedemo6@example.test"
+      }
+    }
+  },
+  {
+    "model": "pedidosApp.detallepedido",
+    "pk": 1,
+    "fields": {
+      "pedido": 1,
+      "producto": 22,
+      "cantidad": 3,
+      "precioUnitario": "349990.00",
+      "subTotal": "1049970.00",
+      "tipoOperacion": "venta",
+      "fechaInicio": null,
+      "fechaTermino": null
+    }
+  },
+  {
+    "model": "pedidosApp.detallepedido",
+    "pk": 2,
+    "fields": {
+      "pedido": 2,
+      "producto": 6,
+      "cantidad": 1,
+      "precioUnitario": "229990.00",
+      "subTotal": "229990.00",
+      "tipoOperacion": "venta",
+      "fechaInicio": null,
+      "fechaTermino": null
+    }
+  },
+  {
+    "model": "pedidosApp.detallepedido",
+    "pk": 3,
+    "fields": {
+      "pedido": 3,
+      "producto": 2,
+      "cantidad": 1,
+      "precioUnitario": "289990.00",
+      "subTotal": "289990.00",
+      "tipoOperacion": "venta",
+      "fechaInicio": null,
+      "fechaTermino": null
+    }
+  },
+  {
+    "model": "pedidosApp.detallepedido",
+    "pk": 4,
+    "fields": {
+      "pedido": 4,
+      "producto": 1,
+      "cantidad": 1,
+      "precioUnitario": "159990.00",
+      "subTotal": "159990.00",
+      "tipoOperacion": "venta",
+      "fechaInicio": null,
+      "fechaTermino": null
+    }
+  },
+  {
+    "model": "pedidosApp.detallepedido",
+    "pk": 5,
+    "fields": {
+      "pedido": 4,
+      "producto": 3,
+      "cantidad": 1,
+      "precioUnitario": "249990.00",
+      "subTotal": "249990.00",
+      "tipoOperacion": "venta",
+      "fechaInicio": null,
+      "fechaTermino": null
+    }
+  },
+  {
+    "model": "pedidosApp.detallepedido",
+    "pk": 6,
+    "fields": {
+      "pedido": 5,
+      "producto": 1,
+      "cantidad": 1,
+      "precioUnitario": "159990.00",
+      "subTotal": "159990.00",
+      "tipoOperacion": "venta",
+      "fechaInicio": null,
+      "fechaTermino": null
+    }
+  },
+  {
+    "model": "pedidosApp.detallepedido",
+    "pk": 7,
+    "fields": {
+      "pedido": 5,
+      "producto": 2,
+      "cantidad": 1,
+      "precioUnitario": "289990.00",
+      "subTotal": "289990.00",
+      "tipoOperacion": "venta",
+      "fechaInicio": null,
+      "fechaTermino": null
+    }
+  },
+  {
+    "model": "pedidosApp.detallepedido",
+    "pk": 8,
+    "fields": {
+      "pedido": 6,
+      "producto": 14,
+      "cantidad": 1,
+      "precioUnitario": "179990.00",
+      "subTotal": "179990.00",
+      "tipoOperacion": "venta",
+      "fechaInicio": null,
+      "fechaTermino": null
+    }
+  },
+  {
+    "model": "pedidosApp.detallepedido",
+    "pk": 9,
+    "fields": {
+      "pedido": 7,
+      "producto": 5,
+      "cantidad": 1,
+      "precioUnitario": "6000.00",
+      "subTotal": "12000.00",
+      "tipoOperacion": "arriendo",
+      "fechaInicio": "2026-11-25",
+      "fechaTermino": "2026-11-27"
+    }
+  },
+  {
+    "model": "pedidosApp.detallepedido",
+    "pk": 10,
+    "fields": {
+      "pedido": 8,
+      "producto": 19,
+      "cantidad": 1,
+      "precioUnitario": "99990.00",
+      "subTotal": "99990.00",
+      "tipoOperacion": "venta",
+      "fechaInicio": null,
+      "fechaTermino": null
+    }
+  },
+  {
+    "model": "pedidosApp.detallepedido",
+    "pk": 11,
+    "fields": {
+      "pedido": 9,
+      "producto": 20,
+      "cantidad": 1,
+      "precioUnitario": "169990.00",
+      "subTotal": "169990.00",
+      "tipoOperacion": "venta",
+      "fechaInicio": null,
+      "fechaTermino": null
+    }
+  },
+  {
+    "model": "pedidosApp.detallepedido",
+    "pk": 12,
+    "fields": {
+      "pedido": 10,
+      "producto": 4,
+      "cantidad": 1,
+      "precioUnitario": "559993.00",
+      "subTotal": "559993.00",
+      "tipoOperacion": "venta",
+      "fechaInicio": null,
+      "fechaTermino": null
+    }
+  },
+  {
+    "model": "pedidosApp.detallepedido",
+    "pk": 13,
+    "fields": {
+      "pedido": 11,
+      "producto": 28,
+      "cantidad": 1,
+      "precioUnitario": "499990.00",
+      "subTotal": "499990.00",
+      "tipoOperacion": "venta",
+      "fechaInicio": null,
+      "fechaTermino": null
+    }
+  },
+  {
+    "model": "pedidosApp.pago",
+    "pk": 1,
+    "fields": {
+      "pedido": 5,
+      "monto": "535476.00",
+      "fechaPago": "2026-11-21T02:00:20.830Z",
+      "metodo": "Pago presencial",
+      "estado": "Completado"
+    }
+  },
+  {
+    "model": "pedidosApp.pago",
+    "pk": 2,
+    "fields": {
+      "pedido": 4,
+      "monto": "487876.00",
+      "fechaPago": "2026-11-21T02:00:21.782Z",
+      "metodo": "Pago presencial",
+      "estado": "Completado"
+    }
+  },
+  {
+    "model": "pedidosApp.pago",
+    "pk": 3,
+    "fields": {
+      "pedido": 3,
+      "monto": "345088.00",
+      "fechaPago": "2026-11-21T02:00:22.525Z",
+      "metodo": "Pago presencial",
+      "estado": "Completado"
+    }
+  },
+  {
+    "model": "pedidosApp.pago",
+    "pk": 4,
+    "fields": {
+      "pedido": 6,
+      "monto": "214188.00",
+      "fechaPago": "2026-11-24T19:27:43.976Z",
+      "metodo": "Pago presencial",
+      "estado": "Completado"
+    }
+  },
+  {
+    "model": "pedidosApp.pago",
+    "pk": 5,
+    "fields": {
+      "pedido": 7,
+      "monto": "14280.00",
+      "fechaPago": "2026-11-24T19:27:49.444Z",
+      "metodo": "Pago presencial",
+      "estado": "Completado"
+    }
+  },
+  {
+    "model": "pedidosApp.pago",
+    "pk": 6,
+    "fields": {
+      "pedido": 8,
+      "monto": "118988.00",
+      "fechaPago": "2026-11-24T19:27:54.928Z",
+      "metodo": "Pago presencial",
+      "estado": "Completado"
+    }
+  },
+  {
+    "model": "pedidosApp.pago",
+    "pk": 7,
+    "fields": {
+      "pedido": 10,
+      "monto": "666392.00",
+      "fechaPago": "2026-11-24T20:34:13.018Z",
+      "metodo": "Pago presencial",
+      "estado": "Completado"
+    }
+  },
+  {
+    "model": "eventosApp.evento",
+    "pk": 1,
+    "fields": {
+      "titulo": "Semana de la guitarra eléctrica",
+      "descripcion": "15% de descuento en guitarras eléctricas seleccionadas. (Evento de ejemplo: puedes editarlo o eliminarlo desde el panel.)",
+      "tipo_evento": "descuento",
+      "imagen_banner": "",
+      "porcentaje_descuento": "15.00",
+      "precio_pack_arriendo": null,
+      "artista_invitado": "",
+      "lugar_o_link": "",
+      "fecha_disponibilidad": null,
+      "permite_reserva": true,
+      "condicion_outlet": "",
+      "estado_verificado": false,
+      "fecha_inicio": "2026-11-20T03:00:00Z",
+      "fecha_fin": "2026-12-05T02:59:00Z",
+      "activo": false,
+      "finalizado_manualmente": false,
+      "creado": "2026-11-21T02:36:37.251Z",
+      "actualizado": "2026-11-21T02:36:37.251Z",
+      "productos_asociados": [
+        6,
+        20
+      ]
+    }
+  },
+  {
+    "model": "eventosApp.evento",
+    "pk": 2,
+    "fields": {
+      "titulo": "Pack Banda en Vivo",
+      "descripcion": "Caja activa, micrófono vocal y guitarra eléctrica para tu tocata, arrendados juntos. (Evento de ejemplo: puedes editarlo o eliminarlo desde el panel.)",
+      "tipo_evento": "pack_arriendo",
+      "imagen_banner": "",
+      "porcentaje_descuento": "0.00",
+      "precio_pack_arriendo": "19990.00",
+      "artista_invitado": "",
+      "lugar_o_link": "",
+      "fecha_disponibilidad": null,
+      "permite_reserva": true,
+      "condicion_outlet": "",
+      "estado_verificado": false,
+      "fecha_inicio": "2026-11-20T03:00:00Z",
+      "fecha_fin": "2026-12-21T02:59:00Z",
+      "activo": false,
+      "finalizado_manualmente": false,
+      "creado": "2026-11-21T02:36:38.651Z",
+      "actualizado": "2026-11-21T02:36:38.651Z",
+      "productos_asociados": [
+        23,
+        17,
+        20
+      ]
+    }
+  },
+  {
+    "model": "eventosApp.evento",
+    "pk": 3,
+    "fields": {
+      "titulo": "Preventa MicroFreak Hybrid",
+      "descripcion": "Reserva el sintetizador MicroFreak con 10% de descuento antes de su llegada. (Evento de ejemplo: puedes editarlo o eliminarlo desde el panel.)",
+      "tipo_evento": "preventa",
+      "imagen_banner": "",
+      "porcentaje_descuento": "10.00",
+      "precio_pack_arriendo": null,
+      "artista_invitado": "",
+      "lugar_o_link": "",
+      "fecha_disponibilidad": "2026-12-04",
+      "permite_reserva": true,
+      "condicion_outlet": "",
+      "estado_verificado": false,
+      "fecha_inicio": "2026-11-20T03:00:00Z",
+      "fecha_fin": "2026-12-04T02:59:00Z",
+      "activo": true,
+      "finalizado_manualmente": false,
+      "creado": "2026-11-21T02:36:39.735Z",
+      "actualizado": "2026-11-24T20:13:54.674Z",
+      "productos_asociados": [
+        30
+      ]
+    }
+  },
+  {
+    "model": "eventosApp.evento",
+    "pk": 4,
+    "fields": {
+      "titulo": "Outlet ex-arriendo: batería RMX",
+      "descripcion": "Batería que estuvo en arriendo, revisada por nuestro técnico, con 30% de descuento. (Evento de ejemplo: puedes editarlo o eliminarlo desde el panel.)",
+      "tipo_evento": "outlet",
+      "imagen_banner": "",
+      "porcentaje_descuento": "30.00",
+      "precio_pack_arriendo": null,
+      "artista_invitado": "",
+      "lugar_o_link": "",
+      "fecha_disponibilidad": null,
+      "permite_reserva": true,
+      "condicion_outlet": "buen_estado",
+      "estado_verificado": true,
+      "fecha_inicio": "2026-11-20T03:00:00Z",
+      "fecha_fin": "2026-12-11T02:59:00Z",
+      "activo": true,
+      "finalizado_manualmente": false,
+      "creado": "2026-11-21T02:36:40.824Z",
+      "actualizado": "2026-11-21T02:36:40.824Z",
+      "productos_asociados": [
+        4
+      ]
+    }
+  },
+  {
+    "model": "eventosApp.evento",
+    "pk": 5,
+    "fields": {
+      "titulo": "Clínica de sintetizadores",
+      "descripcion": "Demostración en vivo de sintetizadores análogos e híbridos. Entrada liberada. (Evento de ejemplo: puedes editarlo o eliminarlo desde el panel.)",
+      "tipo_evento": "en_vivo",
+      "imagen_banner": "",
+      "porcentaje_descuento": "0.00",
+      "precio_pack_arriendo": null,
+      "artista_invitado": "Equipo Distortion House",
+      "lugar_o_link": "Sala de demostraciones de la tienda",
+      "fecha_disponibilidad": null,
+      "permite_reserva": true,
+      "condicion_outlet": "",
+      "estado_verificado": false,
+      "fecha_inicio": "2026-11-26T22:00:00Z",
+      "fecha_fin": "2026-11-27T00:00:00Z",
+      "activo": true,
+      "finalizado_manualmente": false,
+      "creado": "2026-11-21T02:36:42.062Z",
+      "actualizado": "2026-11-21T02:36:42.062Z",
+      "productos_asociados": [
+        29,
+        30
+      ]
+    }
+  },
+  {
+    "model": "eventosApp.evento",
+    "pk": 6,
+    "fields": {
+      "titulo": "Body Fire",
+      "descripcion": "Banda Bodysnatcher en vivo \r\n$5000 Entrada",
+      "tipo_evento": "en_vivo",
+      "imagen_banner": "eventos/.jpg",
+      "porcentaje_descuento": "0.00",
+      "precio_pack_arriendo": null,
+      "artista_invitado": "Bodysnatcher",
+      "lugar_o_link": "casino talca",
+      "fecha_disponibilidad": null,
+      "permite_reserva": true,
+      "condicion_outlet": "",
+      "estado_verificado": false,
+      "fecha_inicio": "2026-11-26T22:00:00Z",
+      "fecha_fin": "2026-12-27T09:00:00Z",
+      "activo": true,
+      "finalizado_manualmente": false,
+      "creado": "2026-11-24T19:16:31.928Z",
+      "actualizado": "2026-11-24T19:24:18.044Z",
+      "productos_asociados": []
+    }
+  },
+  {
+    "model": "eventosApp.evento",
+    "pk": 7,
+    "fields": {
+      "titulo": "System of a Down locos y politicos",
+      "descripcion": "System Of a Down en sala\nentrada $25000",
+      "tipo_evento": "en_vivo",
+      "imagen_banner": "eventos/descarga.jpg",
+      "porcentaje_descuento": "0.00",
+      "precio_pack_arriendo": null,
+      "artista_invitado": "System of a Down",
+      "lugar_o_link": "Sala de Distortion House",
+      "fecha_disponibilidad": null,
+      "permite_reserva": true,
+      "condicion_outlet": "",
+      "estado_verificado": false,
+      "fecha_inicio": "2026-11-27T22:00:00Z",
+      "fecha_fin": "2026-11-28T00:00:00Z",
+      "activo": true,
+      "finalizado_manualmente": false,
+      "creado": "2026-11-24T19:28:01.226Z",
+      "actualizado": "2026-11-24T20:05:53.371Z",
+      "productos_asociados": []
+    }
+  },
+  {
+    "model": "eventosApp.evento",
+    "pk": 8,
+    "fields": {
+      "titulo": "Mamborap noche underground",
+      "descripcion": "Mamborap en sala\nEntrada $5000",
+      "tipo_evento": "en_vivo",
+      "imagen_banner": "eventos/Abstrato_estilo_urbano_hiphop_graffiti_arte_de_rua_fundo_de_ilustração_vetorial__9W3207m.jpg",
+      "porcentaje_descuento": "0.00",
+      "precio_pack_arriendo": null,
+      "artista_invitado": "Mamborap",
+      "lugar_o_link": "Sala de Distortion House",
+      "fecha_disponibilidad": null,
+      "permite_reserva": true,
+      "condicion_outlet": "",
+      "estado_verificado": false,
+      "fecha_inicio": "2026-11-29T22:00:00Z",
+      "fecha_fin": "2026-11-30T00:00:00Z",
+      "activo": false,
+      "finalizado_manualmente": false,
+      "creado": "2026-11-24T19:28:01.669Z",
+      "actualizado": "2026-11-24T20:13:58.506Z",
+      "productos_asociados": []
+    }
+  },
+  {
+    "model": "eventosApp.evento",
+    "pk": 9,
+    "fields": {
+      "titulo": "Los Bunkers en la tienda",
+      "descripcion": "Evento ficticio para presentar el proyecto.",
+      "tipo_evento": "en_vivo",
+      "imagen_banner": "",
+      "porcentaje_descuento": "0.00",
+      "precio_pack_arriendo": null,
+      "artista_invitado": "Los Bunkers",
+      "lugar_o_link": "Sala de Distortion House",
+      "fecha_disponibilidad": null,
+      "permite_reserva": true,
+      "condicion_outlet": "",
+      "estado_verificado": false,
+      "fecha_inicio": "2026-12-01T22:00:00Z",
+      "fecha_fin": "2026-12-02T00:00:00Z",
+      "activo": false,
+      "finalizado_manualmente": true,
+      "creado": "2026-11-24T19:28:02.091Z",
+      "actualizado": "2026-11-24T20:03:53.668Z",
+      "productos_asociados": []
+    }
+  }
+]

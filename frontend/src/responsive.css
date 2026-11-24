@@ -1,0 +1,47 @@
+html { scroll-padding-top: 1rem; }
+body { min-width: 320px; }
+img { max-width: 100%; }
+.store-app main, .store-app section, .store-app aside, .store-app .row > * { min-width: 0; }
+.store-app .table-responsive { max-width: 100%; }
+.store-app .table th { white-space: nowrap; }
+.store-app .table td { overflow-wrap: anywhere; }
+.store-app .table td:first-child { white-space: nowrap; }
+.store-app .modal { overflow-y: auto; padding: .5rem; }
+.store-app .modal-dialog { margin: .5rem auto; }
+.store-app .modal-content { max-height: calc(100dvh - 1rem); overflow-y: auto; }
+.store-app .modal-header, .store-app .modal-footer { flex-shrink: 0; }
+.store-app .modal-footer { gap: .5rem; }
+.store-app .offcanvas { width: min(420px, 100vw); max-width: 100vw; }
+.store-app .offcanvas-body { min-height: 0; overflow-y: auto; }
+.store-app .btn, .store-app a { touch-action: manipulation; }
+.management-nav .active { background: var(--store-primary); color: white; }
+.store-app .d-flex.justify-content-between { flex-wrap: wrap; gap: .75rem; }
+.store-app .card-title { line-height: 1.5; }
+
+@media (max-width: 991.98px) {
+  .management-nav { flex-direction: row; overflow-x: auto; gap: .25rem; }
+  .management-nav > button { flex: 0 0 auto; width: auto; white-space: nowrap; padding: .75rem 1rem !important; }
+  .management-panel > .row > section > .card { padding: 1rem !important; }
+  .store-app .d-flex.flex-nowrap { flex-wrap: wrap !important; }
+}
+
+@media (max-width: 767.98px) {
+  .store-app main { padding-inline: .75rem !important; margin-block: 1rem !important; }
+  .store-app h3 { font-size: 1.4rem; }
+  .store-app h4 { font-size: 1.25rem; }
+  .store-app .container, .management-panel { padding-inline: .5rem !important; }
+  .store-app .card.p-4 { padding: 1rem !important; }
+  .store-app .table { font-size: .85rem; min-width: 540px; }
+  .store-app .form-control, .store-app .form-select { font-size: 1rem !important; min-height: 42px; }
+  .store-app input[type="checkbox"] { min-height: initial; }
+  .store-app .modal-header, .store-app .modal-body, .store-app .modal-footer { padding: 1rem !important; }
+  .store-app .modal-footer > .btn { flex: 1 1 auto; margin: 0; min-height: 42px; }
+  .store-app .offcanvas-header, .store-app .offcanvas-body { padding: 1rem !important; }
+  .store-app footer .row { row-gap: 1rem; }
+  .store-app footer .col-md-4 { width: 50%; }
+  .store-app .min-vh-100 { min-height: 100dvh !important; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; }
+}

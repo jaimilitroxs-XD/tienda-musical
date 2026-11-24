@@ -1,0 +1,114 @@
+/* Adapta SB Admin 2 a Bootstrap 5 y a los colores de la tienda. */
+
+#wrapper {
+  font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  min-height: 100vh;
+}
+
+#wrapper #content-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--store-subtle);
+}
+#wrapper .sidebar.bg-gradient-primary {
+  background-color: var(--store-primary);
+  background-image: linear-gradient(180deg, var(--store-primary) 10%, #1b5277 100%);
+}
+.sidebar-dark .nav-item.active .nav-link {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+#wrapper .border-left-primary { border-left-color: var(--store-primary) !important; }
+#wrapper .border-left-success { border-left-color: #1cc88a !important; }
+#wrapper .border-left-info { border-left-color: #36b9cc !important; }
+#wrapper .text-success { color: #1cc88a !important; }
+#wrapper .text-info { color: #36b9cc !important; }
+#wrapper .border-left-warning { border-left-color: var(--bs-warning) !important; }
+#wrapper .border-left-danger { border-left-color: var(--bs-danger) !important; }
+#wrapper .text-primary { color: var(--store-primary) !important; }
+#wrapper .badge.bg-primary { background-color: var(--store-primary) !important; }
+#wrapper .topbar #sidebarToggleTop { color: var(--store-primary); }
+
+/* Botones comunes de los paneles. */
+#wrapper :is(.container-fluid, .modal) .btn:not(.btn-link):not(.btn-circle):not(.rounded-circle) {
+  border-radius: 50rem !important;
+  padding: .25rem 1rem;
+  font-size: .875rem;
+  font-weight: 500 !important;
+  line-height: 1.5;
+  min-height: 31px;
+}
+#wrapper .modal .modal-footer .btn {
+  padding: .5rem 1.5rem;
+  font-size: 1rem;
+}
+#wrapper .container-fluid .btn-group {
+  gap: .35rem;
+}
+#wrapper .container-fluid .btn-group > .btn {
+  margin-left: 0;
+}
+#wrapper .container-fluid .btn-primary {
+  background-color: var(--store-primary);
+  border-color: var(--store-primary);
+}
+#wrapper :is(.container-fluid, .modal) .btn:focus-visible {
+  outline: 2px solid var(--store-primary);
+  outline-offset: 3px;
+}
+.sidebar .nav-item button.nav-link {
+  background: none;
+  border: 0;
+  width: 100%;
+  text-align: left;
+}
+@media (max-width: 767.98px) {
+  .sidebar .nav-item button.nav-link { text-align: center; }
+}
+.sidebar.toggled .nav-item button.nav-link { text-align: center; }
+.sidebar .sidebar-brand { border: 0; background: none; width: 100%; }
+.topbar .dropdown-menu { min-width: 13rem; }
+
+.scroll-to-top { display: block; z-index: 1030; background: var(--store-primary); }
+.scroll-to-top:hover { color: #fff; background: #1b5277; }
+
+/* Colores del modo oscuro. */
+[data-bs-theme="dark"] #wrapper #content-wrapper { background-color: var(--store-background); }
+[data-bs-theme="dark"] #wrapper .topbar,
+[data-bs-theme="dark"] #wrapper .sticky-footer { background-color: var(--store-header) !important; }
+[data-bs-theme="dark"] #wrapper .sidebar.bg-gradient-primary {
+  background-color: var(--store-header);
+  background-image: none;
+  border-right: 1px solid var(--store-border);
+}
+[data-bs-theme="dark"] .sidebar-dark .nav-item.active .nav-link {
+  background-color: #57334f;
+  color: #ffb2ef;
+}
+[data-bs-theme="dark"] .sidebar-dark .nav-item.active .nav-link i { color: var(--store-primary); }
+[data-bs-theme="dark"] #wrapper .border-left-primary { border-left-color: var(--store-primary) !important; }
+[data-bs-theme="dark"] #wrapper .text-primary { color: var(--store-price) !important; }
+[data-bs-theme="dark"] #wrapper .topbar #sidebarToggleTop { color: var(--store-primary); }
+[data-bs-theme="dark"] #wrapper :is(.text-gray-800, .text-gray-900, .text-dark) { color: var(--bs-emphasis-color) !important; }
+[data-bs-theme="dark"] #wrapper :is(.text-gray-600, .text-gray-500) { color: var(--bs-secondary-color) !important; }
+[data-bs-theme="dark"] #wrapper .topbar .topbar-divider { border-right-color: var(--bs-border-color); }
+[data-bs-theme="dark"] .scroll-to-top { color: #241d26; }
+[data-bs-theme="dark"] #wrapper .text-gray-300 { color: rgba(255, 255, 255, .18) !important; }
+[data-bs-theme="dark"] #wrapper .progress { background-color: var(--store-subtle); }
+[data-bs-theme="dark"] #wrapper .list-group-item { border-color: var(--store-border) !important; }
+
+/* Formato de impresión del reporte. */
+@media print {
+  @page { margin: 12mm; }
+  #wrapper .sidebar, #wrapper .topbar, #wrapper .sticky-footer, .scroll-to-top, .no-imprimir { display: none !important; }
+  #wrapper, #wrapper #content-wrapper { background: #fff !important; display: block !important; min-height: 0 !important; }
+  #wrapper .container-fluid { padding: 0 !important; }
+  #wrapper .card { background: #fff !important; box-shadow: none !important; border: 1px solid #d1d3e2 !important; break-inside: avoid; }
+  #wrapper .card-header { background: #f8f9fc !important; }
+  #wrapper, #wrapper :is(.text-gray-800, .text-gray-900, .text-dark, h1, h4, h6, td, th, strong, li, span, div) { color: #212529 !important; }
+  #wrapper :is(.text-gray-500, .text-gray-600) { color: #6c757d !important; }
+  #wrapper .badge, #wrapper .progress-bar { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  #wrapper .badge { color: #fff !important; }
+  #wrapper .alert { display: none !important; }
+  #wrapper .row > [class*="col-lg-"] { break-inside: avoid; }
+}

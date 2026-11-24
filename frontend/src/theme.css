@@ -1,0 +1,198 @@
+:root {
+  --store-primary: #2874a6;
+  --store-surface: #fff;
+  --store-subtle: #f8f9fa;
+  --store-text: #222;
+  --store-muted: #555;
+  --store-price: #d9534f;
+  --store-header: #222;
+  --store-border: #dee2e6;
+  --store-background: #f5f6f8;
+}
+
+/* Colores del modo oscuro. */
+[data-bs-theme="dark"] {
+  color-scheme: dark;
+  --store-background: #121316;
+  --store-surface: #1c1d22;
+  --store-subtle: #25262e;
+  --store-header: #1c1d22;
+  --store-text: #f3f4f6;
+  --store-muted: #9ca3af;
+  --store-border: #2e303a;
+  --store-primary: #d926a9;
+  --store-price: #ff99e9;
+  --bs-body-bg: var(--store-background);
+  --bs-body-color: var(--store-text);
+  --bs-secondary-color: var(--store-muted);
+  --bs-tertiary-bg: var(--store-subtle);
+  --bs-border-color: var(--store-border);
+  --bs-emphasis-color: var(--store-text);
+  --bs-link-color: #ff99e9;
+  --bs-link-hover-color: #ffc2f2;
+}
+.pagination {
+  --bs-pagination-color: var(--store-primary);
+  --bs-pagination-hover-color: var(--store-primary);
+  --bs-pagination-active-bg: var(--store-primary);
+  --bs-pagination-active-border-color: var(--store-primary);
+  --bs-pagination-focus-color: var(--store-primary);
+}
+[data-bs-theme="dark"] .pagination {
+  --bs-pagination-bg: var(--store-surface);
+  --bs-pagination-border-color: var(--store-border);
+  --bs-pagination-color: var(--store-price);
+  --bs-pagination-hover-bg: #424047;
+  --bs-pagination-hover-color: #fff;
+  --bs-pagination-active-color: #241d26;
+  --bs-pagination-disabled-bg: var(--store-subtle);
+  --bs-pagination-disabled-color: var(--store-muted);
+}
+
+body, .store-app {
+  background: var(--store-background);
+  color: var(--store-text);
+}
+
+[data-bs-theme="dark"] :is(.card, .modal-content, .offcanvas, .dropdown-menu, .bg-white) {
+  background-color: var(--store-surface) !important;
+  color: var(--store-text);
+}
+
+[data-bs-theme="dark"] :is(.bg-light, .card-header, .card-footer, .modal-header, .modal-footer) {
+  background-color: var(--store-subtle) !important;
+}
+
+[data-bs-theme="dark"] :is(.navbar, footer.bg-dark) {
+  background-color: var(--store-header) !important;
+  border-color: var(--store-border) !important;
+}
+
+[data-bs-theme="dark"] :is(.text-dark, .text-black, .text-body, .card-title, .form-label, .dropdown-item) {
+  color: var(--store-text) !important;
+}
+
+[data-bs-theme="dark"] :is(.text-muted, .text-secondary, footer a) {
+  color: var(--store-muted) !important;
+}
+
+[data-bs-theme="dark"] :is(.text-primary, .text-info) {
+  color: var(--store-price) !important;
+}
+
+[data-bs-theme="dark"] .text-danger { color: #ff929b !important; }
+[data-bs-theme="dark"] .text-success { color: #8ddcba !important; }
+
+[data-bs-theme="dark"] :is(.form-control, .form-select, .form-check-input, .input-group-text) {
+  background-color: #282b2e !important;
+  color: var(--store-text) !important;
+  border-color: var(--store-border) !important;
+}
+
+[data-bs-theme="dark"] .form-control::placeholder { color: #aca9b4; opacity: 1; }
+[data-bs-theme="dark"] :is(.form-control, .form-select):focus {
+  border-color: var(--store-primary) !important;
+  box-shadow: 0 0 0 .2rem #f143dc33;
+}
+
+[data-bs-theme="dark"] .form-check-input:checked {
+  background-color: #ae198f !important;
+  border-color: var(--store-primary) !important;
+}
+
+[data-bs-theme="dark"] .list-group-item {
+  background-color: var(--store-surface) !important;
+  color: var(--store-text) !important;
+  border-color: var(--store-border) !important;
+}
+
+[data-bs-theme="dark"] :is(.list-group-item-action, .dropdown-item):hover {
+  background-color: #424047 !important;
+}
+
+[data-bs-theme="dark"] :is(.list-group-item[aria-current="page"], .list-group-item.active, .nav-link.active) {
+  background-color: #57334f !important;
+  color: #ffb2ef !important;
+  border-color: var(--store-primary) !important;
+}
+
+[data-bs-theme="dark"] .table {
+  --bs-table-color: var(--store-text);
+  --bs-table-bg: var(--store-surface);
+  --bs-table-border-color: var(--store-border);
+  --bs-table-hover-bg: #403a43;
+  --bs-table-hover-color: #fff;
+  --bs-table-striped-bg: #36383b;
+  --bs-table-striped-color: var(--store-text);
+}
+
+[data-bs-theme="dark"] .table-light { --bs-table-bg: var(--store-subtle); }
+[data-bs-theme="dark"] :is(.alert-light, .alert-info) {
+  color: #f3d7ed;
+  background-color: #3d303e;
+  border-color: #6a4a65;
+}
+[data-bs-theme="dark"] .alert-warning {
+  background-color: #453b2c !important;
+  color: #ffe1a6 !important;
+  border-color: #8a7047 !important;
+}
+
+[data-bs-theme="dark"] :is(.btn-primary, .btn-info, .bg-primary, .bg-info, .btn[style*="--store-primary"]) {
+  background-color: var(--store-primary) !important;
+  border-color: var(--store-primary) !important;
+  color: #241d26 !important;
+}
+
+[data-bs-theme="dark"] :is(.btn-outline-primary, .btn-outline-info) {
+  color: #ff99e9;
+  border-color: #df76c8;
+  --bs-btn-hover-bg: #57334f;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-border-color: var(--store-primary);
+}
+
+[data-bs-theme="dark"] :is(.btn-outline-secondary, .btn-outline-dark) {
+  color: #dfdce5;
+  border-color: #85818c;
+}
+
+[data-bs-theme="dark"] .btn-close { filter: invert(1) grayscale(1) brightness(2); }
+[data-bs-theme="dark"] footer a:hover { color: #ff99e9 !important; }
+.cart-quantity-button {
+  width: 28px;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  font-size: 1.2rem;
+  line-height: 1;
+  color: #222;
+  background: #fff;
+  border: 1px solid #b7bbc2;
+}
+.cart-quantity-button:disabled { opacity: 1; color: #737780; background: #e1e3e6; }
+[data-bs-theme="dark"] .cart-quantity-button {
+  color: #fff;
+  background: #514b56;
+  border-color: #aaa0af;
+}
+[data-bs-theme="dark"] .cart-quantity-button:hover:not(:disabled) {
+  color: #241d26;
+  background: var(--store-primary);
+  border-color: var(--store-primary);
+}
+[data-bs-theme="dark"] .cart-quantity-button:disabled {
+  color: #b3abb9;
+  background: #38343c;
+  border-color: #706878;
+}
+[data-bs-theme="dark"] :focus-visible { outline: 2px solid var(--store-primary); outline-offset: 3px; }
+
+@media print {
+  [data-bs-theme="dark"] .modal-content {
+    background: white !important;
+    color: black !important;
+  }
+}
