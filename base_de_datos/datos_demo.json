@@ -14,10 +14,10 @@
       "password": "pbkdf2_sha256$1000000$q5YyheBACairpvGpQHe8xD$EGNSTI1pZJhyBRZgULYMDwHgvPxLaJBSZSgknNoM1bc=",
       "last_login": null,
       "is_superuser": false,
-      "username": "clientedemo1@example.test",
+      "username": "clientedemo1@tienda.cl",
       "first_name": "Cliente demo 1",
       "last_name": "",
-      "email": "clientedemo1@example.test",
+      "email": "clientedemo1@tienda.cl",
       "is_staff": true,
       "is_active": true,
       "date_joined": "2026-11-10T00:46:10.594Z",
@@ -32,10 +32,10 @@
       "password": "pbkdf2_sha256$1000000$dpcTlIj9iRGkSe0KTB7AFP$TK9c32DeQ/8SsFzX6V7Y++gJrMeIdv+DDB3cbLR1U8o=",
       "last_login": null,
       "is_superuser": false,
-      "username": "maxi@example.test",
+      "username": "maxi@tienda.cl",
       "first_name": "Maxi",
       "last_name": "",
-      "email": "maxi@example.test",
+      "email": "maxi@tienda.cl",
       "is_staff": true,
       "is_active": true,
       "date_joined": "2026-11-10T01:42:31.685Z",
@@ -50,10 +50,10 @@
       "password": "pbkdf2_sha256$1000000$ixLzJ0lsjYUMsgJuhIeD0I$QtNOn8f17tEVtbrHpWliT0oh4uYmFBCK/zQZmUinRhM=",
       "last_login": null,
       "is_superuser": false,
-      "username": "jaime@example.test",
+      "username": "jaime@tienda.cl",
       "first_name": "Jaime",
       "last_name": "",
-      "email": "jaime@example.test",
+      "email": "jaime@tienda.cl",
       "is_staff": false,
       "is_active": true,
       "date_joined": "2026-11-10T01:42:32.094Z",
@@ -68,10 +68,10 @@
       "password": "pbkdf2_sha256$1000000$yugB3e5iADAakJ73odZM23$yFDpa3wL+uM5dGXwRsv1qoECKBMoj8LehSTfCCiqUZo=",
       "last_login": null,
       "is_superuser": false,
-      "username": "juan@example.test",
+      "username": "juan@tienda.cl",
       "first_name": "Juan",
       "last_name": "",
-      "email": "juan@example.test",
+      "email": "juan@tienda.cl",
       "is_staff": false,
       "is_active": true,
       "date_joined": "2026-11-10T01:42:32.478Z",
@@ -88,10 +88,10 @@
       "password": "pbkdf2_sha256$1000000$qYp0aWgz4C4yzfMloudzzp$bREC63Ut+G3nBMsKL9NPCNfPp6p1uvmIxb0Ye0lsZ0c=",
       "last_login": null,
       "is_superuser": false,
-      "username": "cristobal@example.test",
+      "username": "cristobal@tienda.cl",
       "first_name": "Cristobal",
       "last_name": "",
-      "email": "cristobal@example.test",
+      "email": "cristobal@tienda.cl",
       "is_staff": true,
       "is_active": true,
       "date_joined": "2026-11-10T01:42:32.868Z",
@@ -106,10 +106,10 @@
       "password": "pbkdf2_sha256$1000000$wQGkjvIzyD7HKX51Wc4W0Y$H0NJE6ng+Ez5rnQxVJqartfXBcB/8s9KOXdlgLwPUj0=",
       "last_login": null,
       "is_superuser": false,
-      "username": "clientedemo6@example.test",
+      "username": "clientedemo6@tienda.cl",
       "first_name": "Cliente demo 6",
       "last_name": "",
-      "email": "clientedemo6@example.test",
+      "email": "clientedemo6@tienda.cl",
       "is_staff": false,
       "is_active": true,
       "date_joined": "2026-11-10T20:04:03.718Z",
@@ -124,10 +124,10 @@
       "password": "pbkdf2_sha256$1000000$hrKA8r8SQCXQce8wADuqBb$muwUoISIVefV2b25ZYAZEkDHRL2XvmaKaqM7pTCQZqY=",
       "last_login": null,
       "is_superuser": true,
-      "username": "superadmin@example.test",
+      "username": "superadmin@tienda.cl",
       "first_name": "Superadmin",
       "last_name": "",
-      "email": "superadmin@example.test",
+      "email": "superadmin@tienda.cl",
       "is_staff": true,
       "is_active": true,
       "date_joined": "2026-11-10T20:13:38.584Z",
@@ -142,10 +142,10 @@
       "password": "pbkdf2_sha256$1000000$g236b6kTmb4CjTPbhUqcWb$hXireL+awvfDYy4cxg1GNWqpOMeLpyEIBbtEUFfq67c=",
       "last_login": null,
       "is_superuser": false,
-      "username": "clientedemo8@example.test",
+      "username": "clientedemo8@tienda.cl",
       "first_name": "Cliente demo 8",
       "last_name": "",
-      "email": "clientedemo8@example.test",
+      "email": "clientedemo8@tienda.cl",
       "is_staff": false,
       "is_active": true,
       "date_joined": "2026-11-10T20:49:18.288Z",
@@ -159,7 +159,7 @@
     "fields": {
       "user": 2,
       "nombre": "Maxi",
-      "correo": "maxi@example.test",
+      "correo": "maxi@tienda.cl",
       "telefono": "900000000",
       "activo": true,
       "fechaRegistro": "2026-11-10T01:42:32.080Z"
@@ -171,7 +171,7 @@
     "fields": {
       "user": 3,
       "nombre": "Jaime",
-      "correo": "jaime@example.test",
+      "correo": "jaime@tienda.cl",
       "telefono": "900000000",
       "activo": true,
       "fechaRegistro": "2026-11-10T01:42:32.471Z"
@@ -183,7 +183,7 @@
     "fields": {
       "user": 4,
       "nombre": "Juan",
-      "correo": "juan@example.test",
+      "correo": "juan@tienda.cl",
       "telefono": "900000000",
       "activo": true,
       "fechaRegistro": "2026-11-10T01:42:32.842Z"
@@ -195,7 +195,7 @@
     "fields": {
       "user": 5,
       "nombre": "Cristobal",
-      "correo": "cristobal@example.test",
+      "correo": "cristobal@tienda.cl",
       "telefono": "900000000",
       "activo": true,
       "fechaRegistro": "2026-11-10T01:42:33.245Z"
@@ -207,7 +207,7 @@
     "fields": {
       "user": 6,
       "nombre": "Cliente demo 6",
-      "correo": "clientedemo6@example.test",
+      "correo": "clientedemo6@tienda.cl",
       "telefono": "900000000",
       "activo": true,
       "fechaRegistro": "2026-11-10T20:04:04.579Z"
@@ -219,7 +219,7 @@
     "fields": {
       "user": 7,
       "nombre": "Superadmin",
-      "correo": "superadmin@example.test",
+      "correo": "superadmin@tienda.cl",
       "telefono": "900000000",
       "activo": true,
       "fechaRegistro": "2026-11-10T20:13:39.151Z"
@@ -231,7 +231,7 @@
     "fields": {
       "user": 8,
       "nombre": "Cliente demo 8",
-      "correo": "clientedemo8@example.test",
+      "correo": "clientedemo8@tienda.cl",
       "telefono": "900000000",
       "activo": true,
       "fechaRegistro": "2026-11-10T20:49:19.351Z"
@@ -899,7 +899,7 @@
         "apellidos": "Demo",
         "rut": "12.345.678-5",
         "telefono": "900000000",
-        "correo": "jaime@example.test"
+        "correo": "jaime@tienda.cl"
       }
     }
   },
@@ -916,7 +916,7 @@
         "apellidos": "Demo",
         "rut": "12.345.678-5",
         "telefono": "900000000",
-        "correo": "clientedemo8@example.test"
+        "correo": "clientedemo8@tienda.cl"
       }
     }
   },
@@ -933,7 +933,7 @@
         "apellidos": "Demo",
         "rut": "12.345.678-5",
         "telefono": "900000000",
-        "correo": "jaime@example.test"
+        "correo": "jaime@tienda.cl"
       }
     }
   },
@@ -950,7 +950,7 @@
         "apellidos": "Demo",
         "rut": "12.345.678-5",
         "telefono": "900000000",
-        "correo": "jaime@example.test"
+        "correo": "jaime@tienda.cl"
       }
     }
   },
@@ -967,7 +967,7 @@
         "apellidos": "Demo",
         "rut": "12.345.678-5",
         "telefono": "900000000",
-        "correo": "jaime@example.test"
+        "correo": "jaime@tienda.cl"
       }
     }
   },
@@ -984,7 +984,7 @@
         "apellidos": "Demo",
         "rut": "12.345.678-5",
         "telefono": "900000000",
-        "correo": "jaime@example.test",
+        "correo": "jaime@tienda.cl",
         "demo_ref": "presentacion-simple-1"
       }
     }
@@ -1002,7 +1002,7 @@
         "apellidos": "Demo",
         "rut": "12.345.678-5",
         "telefono": "900000000",
-        "correo": "jaime@example.test",
+        "correo": "jaime@tienda.cl",
         "demo_ref": "presentacion-simple-2"
       }
     }
@@ -1020,7 +1020,7 @@
         "apellidos": "Demo",
         "rut": "12.345.678-5",
         "telefono": "900000000",
-        "correo": "jaime@example.test",
+        "correo": "jaime@tienda.cl",
         "demo_ref": "presentacion-simple-3"
       }
     }
@@ -1038,7 +1038,7 @@
         "apellidos": "Demo",
         "rut": "12.345.678-5",
         "telefono": "900000000",
-        "correo": "jaime@example.test"
+        "correo": "jaime@tienda.cl"
       }
     }
   },
@@ -1055,7 +1055,7 @@
         "apellidos": "Demo",
         "rut": "12.345.678-5",
         "telefono": "900000000",
-        "correo": "jaime@example.test"
+        "correo": "jaime@tienda.cl"
       }
     }
   },
@@ -1072,7 +1072,7 @@
         "apellidos": "Demo",
         "rut": "12.345.678-5",
         "telefono": "900000000",
-        "correo": "clientedemo6@example.test"
+        "correo": "clientedemo6@tienda.cl"
       }
     }
   },
